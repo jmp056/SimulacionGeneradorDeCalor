@@ -63,11 +63,19 @@ namespace SimulacionGeneradorDeCalor
         private void MenosButton_Click(object sender, EventArgs e) // boton disminuir velocidad
         {
             VelocidadLabel.Text = Convert.ToString(Convert.ToDouble(VelocidadLabel.Text) - 0.2);
+            ActualizarIntervalo();
         }
 
         private void MasButton_Click(object sender, EventArgs e)
         {
             VelocidadLabel.Text = Convert.ToString(Convert.ToDouble(VelocidadLabel.Text) + 0.2);
+            ActualizarIntervalo();
+        }
+
+        public void ActualizarIntervalo()
+        {
+            int intervalo = Convert.ToInt32(Convert.ToDouble(VelocidadLabel.Text) * 100);
+            CorreaTimer.Interval = intervalo;
         }
 
         private void BandaButton_Click(object sender, EventArgs e) // BOton de la banda trasportadora
