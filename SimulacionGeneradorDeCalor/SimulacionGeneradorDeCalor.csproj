@@ -98,5 +98,41 @@
   <ItemGroup>
     <None Include="Resources\Mas.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cinta2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cinta3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cinta4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cinta5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cinta6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cinta31.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cinta7.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cinta8.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cinta9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cinta1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PalancaEncendida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PalancaApagada.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
